@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F358F442750E1E237A22F755600006 /* Pods-elmsoft_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6609486709382D5107DC9A68763F3A9 /* Pods-elmsoft_Tests-dummy.m */; };
+		4229C0B5A9760D1F66F472D24B0C8848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5BFCA155ECD9F427C83FE89B3830EC17 /* Pods-elmsoft_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D78A28CA74BE4F3CF2F97669EBD1A8B5 /* Pods-elmsoft_Example-dummy.m */; };
+		61C8EEF41FAF0128001C8716 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C8EEF31FAF0128001C8716 /* File.swift */; };
+		8259189E44DFF1BCE972AA88E795D927 /* Pods-elmsoft_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2136EB6D562D74A3A1013B10B27545C5 /* Pods-elmsoft_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CA1734C03AFEB5500D320391DAAA73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BFEEC91507C69338ECB70079F69C9DE2 /* elmsoft-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B0CF84731E37A05CEA94CCB3305855 /* elmsoft-dummy.m */; };
+		E6D27E92AC532EC895B3CA257C6D245D /* Pods-elmsoft_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF218EB0E77E184E5A6F52E29283CF77 /* Pods-elmsoft_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E83D65EAE5987BC15BD4A3EDB4702717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E98EF7158DA87A7E9C9C967BC235644D /* elmsoft-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D627E4805F512D3D44BE8F5C33B2CA6 /* elmsoft-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A54BE50134757A51C17E30233E69E03D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F627D98334F1CC0FC5D5FC849FBD19;
+			remoteInfo = elmsoft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008522576DFAE5C4D57521D30A643455 /* Pods-elmsoft_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-elmsoft_Example-frameworks.sh"; sourceTree = "<group>"; };
+		055D76B4144A1C6A2AEF9B14B841F365 /* Pods-elmsoft_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-elmsoft_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		06B892D378658300F2181B5E7C48CFF5 /* Pods-elmsoft_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-elmsoft_Tests-resources.sh"; sourceTree = "<group>"; };
+		0D627E4805F512D3D44BE8F5C33B2CA6 /* elmsoft-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "elmsoft-umbrella.h"; sourceTree = "<group>"; };
+		13137968972A5A1696B42D88549C7172 /* Pods-elmsoft_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-elmsoft_Tests.modulemap"; sourceTree = "<group>"; };
+		16B0CF84731E37A05CEA94CCB3305855 /* elmsoft-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "elmsoft-dummy.m"; sourceTree = "<group>"; };
+		1D03DD46EE4D6444462D064AEB220705 /* Pods_elmsoft_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_elmsoft_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2136EB6D562D74A3A1013B10B27545C5 /* Pods-elmsoft_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-elmsoft_Example-umbrella.h"; sourceTree = "<group>"; };
+		2F556E49D966D4163E06F2FB0286A78C /* elmsoft.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = elmsoft.modulemap; sourceTree = "<group>"; };
+		4003D1388242DF12A02CDB8363A1A9A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61C8EEF31FAF0128001C8716 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = elmsoft/Classes/File.swift; sourceTree = "<group>"; };
+		6328F101F64366496A94908B4A5B0F7A /* Pods-elmsoft_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-elmsoft_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		675A44728759DC50041F3BBC60058AF1 /* Pods-elmsoft_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-elmsoft_Example.release.xcconfig"; sourceTree = "<group>"; };
+		71040CF4BC321B84DE8DF3E3B26F02C4 /* Pods-elmsoft_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-elmsoft_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		85EF2B3E1C6DA6162380CB3F5FBD487F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912B8970A467EEC52F0C8E1C8F89F9AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BF50ED625F91C4D6F647B7C4F0B0E6D /* Pods_elmsoft_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_elmsoft_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F33250C6A42D08A0C58C4A0492FAA5E /* Pods-elmsoft_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-elmsoft_Example.modulemap"; sourceTree = "<group>"; };
+		A6609486709382D5107DC9A68763F3A9 /* Pods-elmsoft_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-elmsoft_Tests-dummy.m"; sourceTree = "<group>"; };
+		AEE4F0810B1559B496DC795D84B354D1 /* Pods-elmsoft_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-elmsoft_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD3999D2CF630D8743C063C689208922 /* Pods-elmsoft_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-elmsoft_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C423149990A957AA7C252784E6F8D9A3 /* Pods-elmsoft_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-elmsoft_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C77E27B3DD7A74AA2641BC8B997DB8DA /* Pods-elmsoft_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-elmsoft_Example-resources.sh"; sourceTree = "<group>"; };
+		D78A28CA74BE4F3CF2F97669EBD1A8B5 /* Pods-elmsoft_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-elmsoft_Example-dummy.m"; sourceTree = "<group>"; };
+		DA770F8AF53A275592DE4FACCB804D00 /* elmsoft.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = elmsoft.xcconfig; sourceTree = "<group>"; };
+		E25ECF2517FC012E3F7914AA6B7268AA /* Pods-elmsoft_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-elmsoft_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E7886DF8866590D49CE693847D830313 /* Pods-elmsoft_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-elmsoft_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7BE44B8D5C090D7C3C5CEFFABE1EF7C /* elmsoft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = elmsoft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98CB3574075D427A787D9863A0EA457 /* elmsoft-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "elmsoft-prefix.pch"; sourceTree = "<group>"; };
+		FF218EB0E77E184E5A6F52E29283CF77 /* Pods-elmsoft_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-elmsoft_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A23FE8614F4768991A881523438D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4229C0B5A9760D1F66F472D24B0C8848 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201DE548151376E1E3BBF4952294D523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CA1734C03AFEB5500D320391DAAA73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3D48069CD09F7996E5B3BAE8328CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83D65EAE5987BC15BD4A3EDB4702717 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0362DA52BA8183C3B9EB40C1E1F58431 /* elmsoft */ = {
+			isa = PBXGroup;
+			children = (
+				61C8EEF31FAF0128001C8716 /* File.swift */,
+				B83E24B7C0507EDB27E5965B8564099A /* Support Files */,
+			);
+			name = elmsoft;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4F861A187E502CC0B5936B2A51B75020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7BE44B8D5C090D7C3C5CEFFABE1EF7C /* elmsoft.framework */,
+				1D03DD46EE4D6444462D064AEB220705 /* Pods_elmsoft_Example.framework */,
+				9BF50ED625F91C4D6F647B7C4F0B0E6D /* Pods_elmsoft_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F99539CEEF7E833D7AA20A68E8BA1738 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4F861A187E502CC0B5936B2A51B75020 /* Products */,
+				8151A19F3303A5D7F2F3F7308AAF35C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8151A19F3303A5D7F2F3F7308AAF35C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB257CACA0BABECDAAE558866A960A /* Pods-elmsoft_Example */,
+				B8D33A5F6FD9449D3F718F47FAB197E6 /* Pods-elmsoft_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B83E24B7C0507EDB27E5965B8564099A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F556E49D966D4163E06F2FB0286A78C /* elmsoft.modulemap */,
+				DA770F8AF53A275592DE4FACCB804D00 /* elmsoft.xcconfig */,
+				16B0CF84731E37A05CEA94CCB3305855 /* elmsoft-dummy.m */,
+				F98CB3574075D427A787D9863A0EA457 /* elmsoft-prefix.pch */,
+				0D627E4805F512D3D44BE8F5C33B2CA6 /* elmsoft-umbrella.h */,
+				85EF2B3E1C6DA6162380CB3F5FBD487F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/elmsoft";
+			sourceTree = "<group>";
+		};
+		B8D33A5F6FD9449D3F718F47FAB197E6 /* Pods-elmsoft_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				912B8970A467EEC52F0C8E1C8F89F9AF /* Info.plist */,
+				13137968972A5A1696B42D88549C7172 /* Pods-elmsoft_Tests.modulemap */,
+				BD3999D2CF630D8743C063C689208922 /* Pods-elmsoft_Tests-acknowledgements.markdown */,
+				AEE4F0810B1559B496DC795D84B354D1 /* Pods-elmsoft_Tests-acknowledgements.plist */,
+				A6609486709382D5107DC9A68763F3A9 /* Pods-elmsoft_Tests-dummy.m */,
+				71040CF4BC321B84DE8DF3E3B26F02C4 /* Pods-elmsoft_Tests-frameworks.sh */,
+				06B892D378658300F2181B5E7C48CFF5 /* Pods-elmsoft_Tests-resources.sh */,
+				FF218EB0E77E184E5A6F52E29283CF77 /* Pods-elmsoft_Tests-umbrella.h */,
+				055D76B4144A1C6A2AEF9B14B841F365 /* Pods-elmsoft_Tests.debug.xcconfig */,
+				6328F101F64366496A94908B4A5B0F7A /* Pods-elmsoft_Tests.release.xcconfig */,
+			);
+			name = "Pods-elmsoft_Tests";
+			path = "Target Support Files/Pods-elmsoft_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4CB257CACA0BABECDAAE558866A960A /* Pods-elmsoft_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4003D1388242DF12A02CDB8363A1A9A5 /* Info.plist */,
+				9F33250C6A42D08A0C58C4A0492FAA5E /* Pods-elmsoft_Example.modulemap */,
+				C423149990A957AA7C252784E6F8D9A3 /* Pods-elmsoft_Example-acknowledgements.markdown */,
+				E7886DF8866590D49CE693847D830313 /* Pods-elmsoft_Example-acknowledgements.plist */,
+				D78A28CA74BE4F3CF2F97669EBD1A8B5 /* Pods-elmsoft_Example-dummy.m */,
+				008522576DFAE5C4D57521D30A643455 /* Pods-elmsoft_Example-frameworks.sh */,
+				C77E27B3DD7A74AA2641BC8B997DB8DA /* Pods-elmsoft_Example-resources.sh */,
+				2136EB6D562D74A3A1013B10B27545C5 /* Pods-elmsoft_Example-umbrella.h */,
+				E25ECF2517FC012E3F7914AA6B7268AA /* Pods-elmsoft_Example.debug.xcconfig */,
+				675A44728759DC50041F3BBC60058AF1 /* Pods-elmsoft_Example.release.xcconfig */,
+			);
+			name = "Pods-elmsoft_Example";
+			path = "Target Support Files/Pods-elmsoft_Example";
+			sourceTree = "<group>";
+		};
+		F99539CEEF7E833D7AA20A68E8BA1738 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0362DA52BA8183C3B9EB40C1E1F58431 /* elmsoft */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E61CC739C03F2B1F4BBAE503892CED8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8259189E44DFF1BCE972AA88E795D927 /* Pods-elmsoft_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90B7BF8253111E1FCC4E5A068A7A918 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D27E92AC532EC895B3CA257C6D245D /* Pods-elmsoft_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BDE69EA1865E82A0D58599F00E5D02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98EF7158DA87A7E9C9C967BC235644D /* elmsoft-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84F627D98334F1CC0FC5D5FC849FBD19 /* elmsoft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AE2CE0FF2199A811634855079C2BF5 /* Build configuration list for PBXNativeTarget "elmsoft" */;
+			buildPhases = (
+				FD3871D65F6C9B8CA65B28A6F11ACE5F /* Sources */,
+				201DE548151376E1E3BBF4952294D523 /* Frameworks */,
+				F8BDE69EA1865E82A0D58599F00E5D02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = elmsoft;
+			productName = elmsoft;
+			productReference = E7BE44B8D5C090D7C3C5CEFFABE1EF7C /* elmsoft.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1FF15F80EA868C930E132CD50F2F921 /* Pods-elmsoft_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772AE2300304041EA8E56F3BCF79A2C9 /* Build configuration list for PBXNativeTarget "Pods-elmsoft_Example" */;
+			buildPhases = (
+				7C013DB25FF6E86BC54E86C3B5685C71 /* Sources */,
+				08A23FE8614F4768991A881523438D46 /* Frameworks */,
+				3E61CC739C03F2B1F4BBAE503892CED8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D744F18489B48FBCB38D315A0ED9A3B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-elmsoft_Example";
+			productName = "Pods-elmsoft_Example";
+			productReference = 1D03DD46EE4D6444462D064AEB220705 /* Pods_elmsoft_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C94E7FEC526D1D991AA2227EB038937A /* Pods-elmsoft_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803CDE2E97A80080FA5288CEF0BEB41E /* Build configuration list for PBXNativeTarget "Pods-elmsoft_Tests" */;
+			buildPhases = (
+				70E3222B84B50BE021D605CB9D3B43F8 /* Sources */,
+				9F3D48069CD09F7996E5B3BAE8328CED /* Frameworks */,
+				C90B7BF8253111E1FCC4E5A068A7A918 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-elmsoft_Tests";
+			productName = "Pods-elmsoft_Tests";
+			productReference = 9BF50ED625F91C4D6F647B7C4F0B0E6D /* Pods_elmsoft_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					84F627D98334F1CC0FC5D5FC849FBD19 = {
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4F861A187E502CC0B5936B2A51B75020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F627D98334F1CC0FC5D5FC849FBD19 /* elmsoft */,
+				B1FF15F80EA868C930E132CD50F2F921 /* Pods-elmsoft_Example */,
+				C94E7FEC526D1D991AA2227EB038937A /* Pods-elmsoft_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E3222B84B50BE021D605CB9D3B43F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F358F442750E1E237A22F755600006 /* Pods-elmsoft_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C013DB25FF6E86BC54E86C3B5685C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFCA155ECD9F427C83FE89B3830EC17 /* Pods-elmsoft_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3871D65F6C9B8CA65B28A6F11ACE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEEC91507C69338ECB70079F69C9DE2 /* elmsoft-dummy.m in Sources */,
+				61C8EEF41FAF0128001C8716 /* File.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D744F18489B48FBCB38D315A0ED9A3B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = elmsoft;
+			target = 84F627D98334F1CC0FC5D5FC849FBD19 /* elmsoft */;
+			targetProxy = A54BE50134757A51C17E30233E69E03D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2382D967172CC889F174888332361CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 055D76B4144A1C6A2AEF9B14B841F365 /* Pods-elmsoft_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-elmsoft_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-elmsoft_Tests/Pods-elmsoft_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_elmsoft_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3720F21564B7ABBA0356FD3EF74BD822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675A44728759DC50041F3BBC60058AF1 /* Pods-elmsoft_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-elmsoft_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-elmsoft_Example/Pods-elmsoft_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_elmsoft_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48CCB7E3A37A91D375C26538B0BDBD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA770F8AF53A275592DE4FACCB804D00 /* elmsoft.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/elmsoft/elmsoft-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/elmsoft/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/elmsoft/elmsoft.modulemap";
+				PRODUCT_NAME = elmsoft;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9A977DB2B3563410DE1E10EC137CF47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6328F101F64366496A94908B4A5B0F7A /* Pods-elmsoft_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-elmsoft_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-elmsoft_Tests/Pods-elmsoft_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_elmsoft_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7E1508CCE7A592C6534EB11D55F0487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA770F8AF53A275592DE4FACCB804D00 /* elmsoft.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/elmsoft/elmsoft-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/elmsoft/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/elmsoft/elmsoft.modulemap";
+				PRODUCT_NAME = elmsoft;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F93D6874EB604AC610D7E01E0E1E0D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25ECF2517FC012E3F7914AA6B7268AA /* Pods-elmsoft_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-elmsoft_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-elmsoft_Example/Pods-elmsoft_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_elmsoft_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AE2CE0FF2199A811634855079C2BF5 /* Build configuration list for PBXNativeTarget "elmsoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E1508CCE7A592C6534EB11D55F0487 /* Debug */,
+				48CCB7E3A37A91D375C26538B0BDBD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772AE2300304041EA8E56F3BCF79A2C9 /* Build configuration list for PBXNativeTarget "Pods-elmsoft_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93D6874EB604AC610D7E01E0E1E0D77 /* Debug */,
+				3720F21564B7ABBA0356FD3EF74BD822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		803CDE2E97A80080FA5288CEF0BEB41E /* Build configuration list for PBXNativeTarget "Pods-elmsoft_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2382D967172CC889F174888332361CFA /* Debug */,
+				9A977DB2B3563410DE1E10EC137CF47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

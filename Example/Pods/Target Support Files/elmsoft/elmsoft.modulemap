@@ -1,0 +1,6 @@
+framework module elmsoft {
+  umbrella header "elmsoft-umbrella.h"
+
+  export *
+  module * { export * }
+}
