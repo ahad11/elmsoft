@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'elmsoft_Example' do
+  pod 'elmsoft', :path => '../'
+
+  target 'elmsoft_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
